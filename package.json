@@ -38,7 +38,7 @@
     "pretest": "npm run build:dll",
     "test": "cross-env NODE_ENV=test karma start",
     "test:watch": "npm run test --silent -- --watch",
-    "tsd": "cpx './src/**/*.d.ts' dist/commonjs",
+    "tsd": "cpx \"src/**/*.d.ts\" dist/commonjs",
     "tsd:lint": "tslint './src/**/*.d.ts'",
     "tsd:lint:fix": "npm run -s tsd:lint -- --fix"
   },
