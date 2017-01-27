@@ -1,6 +1,8 @@
 import * as React from 'react';
 
 interface SidebarPushableProps {
+  [key: string]: any;
+  
   /** An element type to render as (string or function). */
   as?: any;
 
@@ -15,6 +17,8 @@ interface SidebarPushableProps {
 export const SidebarPushable: React.ComponentClass<SidebarPushableProps>;
 
 interface SidebarPusherProps {
+  [key: string]: any;
+
   /** An element type to render as (string or function). */
   as?: any;
 
@@ -31,6 +35,8 @@ interface SidebarPusherProps {
 export const SidebarPusher: React.ComponentClass<SidebarPusherProps>;
 
 interface SidebarProps {
+  [key: string]: any;
+
   /** Animation style. */
   animation?: 'overlay' | 'push' | 'scale down' | 'uncover' | 'slide out' | 'slide along';
 
