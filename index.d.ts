@@ -1,4 +1,9 @@
 /**
+ * Types
+ */
+export * from './dist/commonjs';
+
+/**
  * Addons
  */
 export * from './dist/commonjs/addons/Confirm';
